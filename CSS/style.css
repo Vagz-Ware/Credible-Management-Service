@@ -1,0 +1,249 @@
+:root {
+    --color-body:#ffffff;
+    --color-heading:#00171f;
+    --color-base: #003459;
+    --color-base2: #007ea7;
+    --color-brand: #00a8e8;
+    --sidebar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+body{
+    overflow-x: hidden;
+}
+/* 
+section{
+    border-bottom: 1px solid var(--color-base2);
+} */
+
+
+.content-wrapper{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.psuedo-section{
+    border: solid transparent 10px;
+}
+
+/* hiding overflow of  bootsrap rows */
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+/* Styling Home Page */
+
+/* Styling the top of navbar */
+
+
+
+.navbar{
+    background-color: var(--color-base);
+}
+
+.nav-collection{
+    margin-left: 35%;
+}
+
+.navy{
+}
+
+#active {
+    border-bottom: solid 2px white ;
+}
+
+.links-in-nav{
+    color: var(--color-body);
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: var(--color-brand);
+}
+
+.phone-icon {
+    margin-left: 8%;
+}
+
+.mail-icon {
+    margin-left: 8%;
+}
+
+.facebook-top-icon {
+    margin-left: 16%;
+}
+
+.linkedin-top-icon {
+    margin-left: 1%;
+}
+
+/* Styling The slideshow */
+
+#unclaimed-beneficiaries{
+    border-top: solid transparent 1px;
+}
+
+/* Styling The main navbar */
+
+/* .main-nav{
+    padding-top: -50px;
+} */
+
+#navbarSupportedContent {
+    margin-left: 30%;
+}
+
+.CMS-logo{
+    width: 15%;
+}
+
+/* Type effect texx */
+
+#typeEffectText{
+    text-align: center;
+    color: var(--color-heading);
+}
+
+/* Styling the slide */
+
+.row .pic-slide-container {
+    width: 100%;
+}
+
+.slide-pic {
+    max-height: 420px;
+}
+ 
+.on-light {
+    color: black;
+} 
+
+.para-on-light{
+    color: black;
+}
+
+/* styling mid content */
+
+.mid-cms{
+    /* margin-top: 1%; */
+    max-height: 10%;
+    margin-top: -80px;
+    margin-bottom: -70px;
+}
+
+.mid-content {
+    height: fit-content;
+}
+
+.main-heading{
+    color: var(--color-base);    
+}
+
+.sub-heading{
+    color: var(--color-brand);
+}
+
+/* Styling Footer */
+
+footer{
+    background-color:var(--color-base);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 2;
+    padding: 30px;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+.footer a:hover{
+    color: var(--color-brand);
+}
+
+
+.useful-links {
+    grid-column: 1/2;
+    margin-left: 20px;
+}
+
+.operating-hours{
+    grid-column: 2/3;
+    margin-left: 25%;
+}
+
+.contact-footer{
+    grid-column: 3/4;
+    margin-left: 25%;
+}
+
+.copyright-footer {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+
+/* Service Page  */
+
+.service-img{
+    height: 220px;
+    width: 100%;
+    
+    
+}
+
+.service-img-column-right{
+    margin-left: 10%;
+}
+
+.service-img-judgess{
+    margin-left: 15%;
+}
+
+.info-on-services p{
+    text-align: justify;
+    
+}
+
+.info-on-services-right{
+    margin-left: 6%;
+}
+
+.info-on-services-trace{
+    margin-left: 15%;
+}
+
+.info-on-services-credit{
+    margin-left: 5%;
+}
+
+/* About Page */
+
+.mini-icons{
+    max-width: 120px;
+    max-height: 120px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.icon-text{
+    text-align: center;
+}
+
+/* Contact Page */
+
+.bg-debt-img{
+    max-height: 400px;
+    opacity: 0.5;
+}
+
+.debt-text{
+    text-align: center;
+    margin-top: 18%;
+}
+
